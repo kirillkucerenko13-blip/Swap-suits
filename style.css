@@ -1,0 +1,87 @@
+body {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.full-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+/* Question card */
+.card {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 20px;
+  background-color: white;
+  position: relative;
+  box-shadow: 0px 0px 17px 9px rgba(0, 0, 0, 0.1);
+}
+/* Image in card */
+#question,
+#spade,
+#club,
+#diamond,
+#heart {
+  position: absolute;
+  width: 6rem;
+  height: 6rem;
+}
+.card,
+img:hover {
+  cursor: pointer;
+}
+
+/* Second card */
+.card-second {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 17px 9px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 7rem;
+  right: 35rem;
+  z-index: -1;
+}
+/* Tirth card */
+.card-tirth {
+  width: 20rem;
+  height: 30rem;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 17px 9px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 6rem;
+  right: 33.5rem;
+  z-index: -2;
+}
+/* Reset btn */
+.reset {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transform: translate(0, -45rem);
+}
+.reset img {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+/* Hidden class fo js */
+.hidden {
+  display: none;
+}

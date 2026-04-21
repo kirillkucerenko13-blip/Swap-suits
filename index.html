@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Card-change</title>
+  </head>
+  <body>
+    <main>
+      <div class="full-page">
+        <!-- 3 Cards -->
+        <div class="card full-card"></div>
+        <div class="card-second"></div>
+        <div class="card-tirth"></div>
+        <!-- Question mark on center -->
+        <img
+          class="full-card"
+          id="question"
+          src="images/Question mark.png"
+          alt="Question mark"
+        />
+        <!-- Suits for swap -->
+        <img
+          class="hidden full-card"
+          id="spade"
+          src="images/Spades.png"
+          alt="Spades"
+        />
+        <img
+          class="hidden full-card"
+          id="club"
+          src="images/Clubs.png"
+          alt="Clubs"
+        />
+        <img
+          class="hidden full-card"
+          id="diamond"
+          src="images/Diamonds.png"
+          alt="Diamonds"
+        />
+        <img
+          class="hidden full-card"
+          id="heart"
+          src="images/Hearts.png"
+          alt="Hearts"
+        />
+      </div>
+      <!-- Reset btn -->
+      <div class="reset">
+        <img id="reset" src="images/reset.png" alt="Reset" />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
