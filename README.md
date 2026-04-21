@@ -1,2 +1,2 @@
 # Swap-suits
-Mini pet-project on JS
+Mini pet-project on JS (Without AI)
